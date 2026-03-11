@@ -7,3 +7,8 @@
 //calc.Somar(3.5, 2.8);
 
 // Atividade 2
+Funcionario f1 = new Gerente();
+Funcionario f2 = new Desenvolvedor();
+
+Console.WriteLine(f1.GerarRelatorio());
+Console.WriteLine(f2.GerarRelatorio());

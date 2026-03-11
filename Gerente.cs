@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace Praticando_Polimorfismo;
 
-namespace Praticando_Polimorfismo
+internal class Gerente : Funcionario
 {
-    internal class Gerente
+
+    public override void GerarRelatorio(string relatorio)
     {
+        Console.WriteLine($"Relatorio do gerente: supervisiona a equipe");
     }
 }
