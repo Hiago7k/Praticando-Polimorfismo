@@ -23,5 +23,4 @@ internal class Calculadora
         Console.WriteLine(resposta);
     }
 
-
 }
