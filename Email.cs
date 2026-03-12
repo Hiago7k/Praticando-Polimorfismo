@@ -5,8 +5,8 @@ namespace Praticando_Polimorfismo;
 internal class Email : INotificacao
 {
 
-    public override void EnviarMensagem(string mensagem)
+    public void EnviarMensagem(string mensagem)
     {
-        Console.WriteLine($"Enviando E-mail");
+        Console.WriteLine($"Enviando E-mail " + mensagem);
     }
 }

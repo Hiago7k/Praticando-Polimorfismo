@@ -1,9 +1,7 @@
 ﻿
 namespace Praticando_Polimorfismo;
 
-internal  class INotificacao
+public  interface INotificacao
 {
-    public virtual void EnviarMensagem(string mensagem) 
-    {
-    }
+    void EnviarMensagem(string mensagem);
 }
