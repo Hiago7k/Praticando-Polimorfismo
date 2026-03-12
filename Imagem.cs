@@ -11,4 +11,10 @@ internal class Imagem : Midia
     }
 
     public string Resolucao { get; set; }
+
+
+    public override void ExibirDetalhes()
+    {
+        Console.WriteLine($"Imagem: {Nome} - resolucao {Resolucao}");
+    }
 }
