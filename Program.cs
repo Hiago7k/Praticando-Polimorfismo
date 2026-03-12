@@ -19,14 +19,28 @@
 
 // Atividade 3
 
-List<INotificacao> notificacaos = new List<INotificacao>
+//List<INotificacao> notificacaos = new List<INotificacao>
+//{
+//    new Email(),
+//     new Sms(),
+//    new Push()
+//};
+
+//foreach (var notificacao in notificacaos)
+//{
+//    notificacao.EnviarMensagem("Sistema fora do ar!");
+//}
+
+// Atividade 4
+
+List<TarefaAgendada> tarefas = new List<TarefaAgendada>
 {
-    new Email(),
-     new Sms(),
-    new Push()
+    new BackupTarefa(),
+    new RelatorioTarefa(),
+    new LimpezaTarefa()
 };
 
-foreach (var notificacao in notificacaos)
+foreach (var tarefa in tarefas)
 {
-    notificacao.EnviarMensagem("Sistema fora do ar!");
+    tarefa.Executar();
 }
