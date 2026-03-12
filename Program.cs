@@ -25,3 +25,8 @@ List<INotificacao> notificacaos = new List<INotificacao>
      new Sms(),
     new Push()
 };
+
+foreach (var notificacao in notificacaos)
+{
+    notificacao.EnviarMensagem("Sistema fora do ar");
+}

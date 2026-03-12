@@ -3,7 +3,7 @@ namespace Praticando_Polimorfismo;
 
 internal class Push : INotificacao
 {
-    public void EnviarMensagem()
+    public override void EnviarMensagem(string mensagem)
     {
         Console.WriteLine($"Enviando PUSH");
     }
