@@ -7,8 +7,12 @@
 //calc.Somar(3.5, 2.8);
 
 // Atividade 2
+//SobreScrita
 Funcionario f1 = new Gerente();
 Funcionario f2 = new Desenvolvedor();
+Funcionario f3 = new Analista();
 
 Console.WriteLine(f1.GerarRelatorio());
 Console.WriteLine(f2.GerarRelatorio());
+Console.WriteLine();
+Console.WriteLine(f3.GerarRelatorio());
