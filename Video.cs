@@ -3,7 +3,7 @@ namespace Praticando_Polimorfismo;
 
 internal class Video : Midia
 {
-    public Video(double duracao, string nome)
+    public Video(string nome, double duracao)
         :base(nome)
     {
         Duracao = duracao;
@@ -14,6 +14,6 @@ internal class Video : Midia
 
     public override void ExibirDetalhes()
     {
-        Console.WriteLine($"video: {Duracao} - duracao: {Duracao}");
+        Console.WriteLine($"video: {Nome} - duracao: {Duracao} minutos");
     }
 }

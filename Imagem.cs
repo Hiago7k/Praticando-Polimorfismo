@@ -4,7 +4,7 @@ namespace Praticando_Polimorfismo;
 
 internal class Imagem : Midia
 {
-    public Imagem(string resolucao, string nome)
+    public Imagem(string nome, string resolucao)
       :base(nome)
     {
         Resolucao = resolucao;
