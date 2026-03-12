@@ -10,4 +10,10 @@ internal class Video : Midia
     }
 
     public double Duracao { get; set; }
+
+
+    public override void ExibirDetalhes()
+    {
+        Console.WriteLine($"video: {Duracao} - duracao: {Duracao}");
+    }
 }
