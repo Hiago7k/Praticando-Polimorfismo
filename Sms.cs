@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
-namespace Praticando_Polimorfismo
+namespace Praticando_Polimorfismo;
+
+internal class Sms : INotificacao
 {
-    internal class Sms
+    public void EnviarMensagem()
     {
+        Console.WriteLine($"Enviando SMS");
     }
 }

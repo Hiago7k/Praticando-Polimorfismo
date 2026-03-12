@@ -18,3 +18,10 @@
 //Console.WriteLine(f3.GerarRelatorio());
 
 // Atividade 3
+
+List<INotificacao> notificacaos = new List<INotificacao>
+{
+    new Email(),
+     new Sms(),
+    new Push()
+};
