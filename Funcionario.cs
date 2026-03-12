@@ -2,9 +2,11 @@
 
 internal class Funcionario
 {
+    
 
-    public virtual string GerarRelatorio(string relatorio)
+    public virtual string GerarRelatorio()
     {
-        return relatorio;
+        // metodo a ser sobrescrito
+        Console.WriteLine($"Relatorio do: ");
     }
 }
