@@ -3,8 +3,8 @@
 internal class Gerente : Funcionario
 {
 
-    public override void GerarRelatorio(string relatorio)
+    public  override string GerarRelatorio()
     {
-        Console.WriteLine($"Relatorio de gerentre");
+        return $"relatorio do Gerente";
     }
 }

@@ -4,8 +4,8 @@ internal class Desenvolvedor : Funcionario
 {
 
 
-    public override void GerarRelatorio(string relatorio)
+    public override string GerarRelatorio()
     {
-        Console.WriteLine($"Relatorio de desenvolvedor");
+        return $"Relatorio do desenvovledor";
     }
 }
