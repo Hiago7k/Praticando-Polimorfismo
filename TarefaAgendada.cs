@@ -2,8 +2,7 @@
 
 abstract class TarefaAgendada
 {
-    public virtual void  Executar()
-    {
-
-    }
+    public abstract void Executar();
+   
+   
 }

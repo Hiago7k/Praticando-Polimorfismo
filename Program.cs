@@ -32,15 +32,16 @@
 //}
 
 // Atividade 4
+// Diferentes tarefas armazenadas numa lista DINAMICA
 
-List<TarefaAgendada> tarefas = new List<TarefaAgendada>
-{
-    new BackupTarefa(),
-    new RelatorioTarefa(),
-    new LimpezaTarefa()
-};
+//List<TarefaAgendada> tarefas = new List<TarefaAgendada>
+//{
+//    new BackupTarefa(),
+//    new RelatorioTarefa(),
+//    new LimpezaTarefa()
+//};
 
-foreach (var tarefa in tarefas)
-{
-    tarefa.Executar();
-}
+//foreach (var tarefa in tarefas)
+//{
+//    tarefa.Executar();
+//}
