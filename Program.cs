@@ -60,3 +60,7 @@
 //}
 
 // Atividade 6
+List<Reserva> reservas = new List<Reserva>
+{
+    new ReservaPresencial("Trilha na serra"),
+}; 

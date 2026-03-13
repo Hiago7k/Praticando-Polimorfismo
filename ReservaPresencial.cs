@@ -2,6 +2,12 @@
 
 internal class ReservaPresencial : Reserva
 {
+    public ReservaPresencial(string nome)
+    {
+        Nome = nome;
+    }
+
+    public string Nome { get; ; }
 
 
     public override void Confirmar()
