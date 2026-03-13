@@ -12,6 +12,7 @@ internal class ReservaOnline : Reserva
 
     public override void Confirmar()
     {
-        Console.WriteLine("Reserva online");
+        Console.WriteLine($"Confirmando reserva online : {Nome}");
+        Console.WriteLine($"Link de acesso enviado por e-mail");
     }
 }

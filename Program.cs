@@ -63,4 +63,10 @@
 List<Reserva> reservas = new List<Reserva>
 {
     new ReservaPresencial("Trilha na serra"),
-}; 
+    new ReservaOnline("Workshop de Culinaria Italiana")
+};
+
+foreach (var reserva in reservas)
+{
+    reserva.Confirmar();
+}

@@ -7,11 +7,12 @@ internal class ReservaPresencial : Reserva
         Nome = nome;
     }
 
-    public string Nome { get; ; }
+    public string Nome { get;  }
 
 
     public override void Confirmar()
     {
-        Console.WriteLine("Confirmando presencial");   
+        Console.WriteLine($"Confirmando reserva presencial: {Nome}");
+        Console.WriteLine($"Ponto de encontro: Praca Central as 8h");
     }
 }
