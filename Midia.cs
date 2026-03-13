@@ -13,6 +13,6 @@ internal class Midia
 
     public virtual void ExibirDetalhes()
     {
-        
+        Console.WriteLine($"{Nome}");
     }
 }
