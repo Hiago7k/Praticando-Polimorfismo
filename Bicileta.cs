@@ -5,9 +5,9 @@ namespace Praticando_Polimorfismo;
 internal class Bicileta : Transporte
 {
 
-    public override void CalcularTempo(int distanciaKm)
+    public override int CalcularTempo(int distanciaKm)
     {
-        var tempoEstimado = (distanciaKm * 4);
-
+        int tempoEstimado = (distanciaKm * 4);
+        return tempoEstimado;
     }
 }

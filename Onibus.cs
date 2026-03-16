@@ -3,8 +3,9 @@
 internal class Onibus : Transporte
 {
 
-    public override void CalcularTempo(int distanciaKm)
+    public override int CalcularTempo(int distanciaKm)
     {
-        var tempoEstimado = (distanciaKm * 2) + 5;
+        int tempoEstimado = (distanciaKm * 2) + 5;
+        return tempoEstimado;
     }
 }

@@ -4,9 +4,10 @@ namespace Praticando_Polimorfismo;
 internal class Metro : Transporte
 {
 
-    public override void CalcularTempo(int distanciaKm)
+    public override int CalcularTempo(int distanciaKm)
     {
-        var tempoEstimado = (distanciaKm + 5) ;
-
+        int tempoEstimado = (distanciaKm + 5);
+        return tempoEstimado;
+        
     }
 }
