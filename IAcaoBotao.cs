@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Praticando_Polimorfismo;
+namespace Praticando_Polimorfismo
 {
-    internal class IAcaoBotao
+    internal interface IAcaoBotao
     {
+        void Executar();
     }
 }
