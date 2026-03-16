@@ -3,5 +3,5 @@ namespace Praticando_Polimorfismo;
 
 internal interface IEmprestimo
 {
-    void CalcularValorFinal(decimal valor, int meses);
+    decimal CalcularValorFinal(decimal valor, int meses);
 }

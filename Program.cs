@@ -86,16 +86,31 @@
 
 // Atividade 8
 
-List<Transporte> opcoes = new List<Transporte> 
+//List<Transporte> opcoes = new List<Transporte> 
+//{
+//    new Onibus(),
+//    new Metro(),
+//    new Bicileta()
+//};
+
+//int distancia = 10;
+
+//foreach (var transporte in opcoes)
+//{
+//    Console.WriteLine($"{transporte.GetType().Name}: {transporte.CalcularTempo(distancia)} min");
+//}
+
+// Atividade 9
+
+List<IEmprestimo> perfisl = new List<IEmprestimo> 
 {
-    new Onibus(),
-    new Metro(),
-    new Bicileta()
+    new EmprestimoEstudante(),
+    new EmprestimoEmpresario(),
+    new EmprestimoAposentado()
 };
 
-int distancia = 10;
-
-foreach (var transporte in opcoes)
+foreach (var perfil in perfisl) 
 {
-    Console.WriteLine($"{transporte.GetType().Name}: {transporte.CalcularTempo(distancia)} min");
+    decimal total = perfil.CalcularValorFinal(1000m, 12);
+    Console.WriteLine($"{perfil.GetType().Name}: R${total:0.00}");
 }
