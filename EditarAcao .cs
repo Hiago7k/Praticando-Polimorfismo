@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+namespace Praticando_Polimorfismo;
 
-namespace Praticando_Polimorfismo
+internal class EditarAcao : IAcaoBotao
 {
-    internal class EditarAcao
+
+    public void Executar()
     {
+        Console.WriteLine("Editando informacoes de cadastro...");
     }
 }
