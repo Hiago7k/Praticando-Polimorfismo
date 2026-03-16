@@ -3,8 +3,7 @@
 internal class AulaGravada : Conteudo
 {
     
-    public AulaGravada(int duracao, string titulo) 
-        :base(titulo)
+    public AulaGravada(string titulo, int duracao) : base(titulo)
     {
         Duracao = duracao;
     }
