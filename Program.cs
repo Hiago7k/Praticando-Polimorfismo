@@ -102,15 +102,18 @@
 
 // Atividade 9
 
-List<IEmprestimo> perfisl = new List<IEmprestimo> 
-{
-    new EmprestimoEstudante(),
-    new EmprestimoEmpresario(),
-    new EmprestimoAposentado()
-};
+//List<IEmprestimo> perfisl = new List<IEmprestimo> 
+//{
+//    new EmprestimoEstudante(),
+//    new EmprestimoEmpresario(),
+//    new EmprestimoAposentado()
+//};
 
-foreach (var perfil in perfisl) 
-{
-    decimal total = perfil.CalcularValorFinal(1000m, 12);
-    Console.WriteLine($"{perfil.GetType().Name}: R${total:0.00}");
-}
+//foreach (var perfil in perfisl) 
+//{
+//    decimal total = perfil.CalcularValorFinal(1000m, 12);
+//    Console.WriteLine($"{perfil.GetType().Name}: R${total:0.00}");
+//}
+
+// Atividade 10
+
