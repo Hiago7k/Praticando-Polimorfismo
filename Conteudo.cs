@@ -2,6 +2,10 @@
 
 internal class Conteudo
 {
+    public Conteudo(string titulo)
+    {
+        Titulo = titulo;
+    }
 
     public string Titulo { get; }
 
