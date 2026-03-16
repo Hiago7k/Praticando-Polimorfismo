@@ -72,14 +72,16 @@
 //}
 
 // Atividade 7
-List<Conteudo> conteudos = new List<Conteudo>
-{
-    new AulaGravada("Poo na pratica", 45),
-    new MaterialComplementar("Resumo do modulo 2", 12)
-};
+//List<Conteudo> conteudos = new List<Conteudo>
+//{
+//    new AulaGravada("Poo na pratica", 45),
+//    new MaterialComplementar("Resumo do modulo 2", 12)
+//};
 
-foreach (var conteudo in conteudos)
-{
-    conteudo.ExibirInfo();
-    Console.WriteLine();
-}
+//foreach (var conteudo in conteudos)
+//{
+//    conteudo.ExibirInfo();
+//    Console.WriteLine();
+//}
+
+// Atividade 8
